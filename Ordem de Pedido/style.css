@@ -1,0 +1,93 @@
+.imagem {
+    text-align: center;
+	margin: 20px;
+	border-radius: 10px;
+    top: 50px;
+    right: 50px;
+    left: 50px;
+    margin: auto;
+}
+
+h1 {
+    font-size: var(--fs-title);
+    font-weight: var(--fw-black);
+  }
+
+.titulo:first-child {
+	font-weight: bold;
+}
+
+.titulo-pedido {
+    text-align: center; 
+    font-weight: bold;
+}
+
+.resumo {
+    text-align: center;
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.plano {
+    text-align: center;
+    margin: 15px;
+}
+
+.bnt {
+    font-size: 20px;
+    color: white;
+    font-style: bold;
+    background-color: blue;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.bnt1 {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-style: bold;
+    background-color: blue;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.btn2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    outline: transparent;
+    border: 1px solid transparent;
+    margin: 20px;
+    cursor: pointer; 
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.atributo {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+.copyright {
+    padding: 20px;
+    color: #BBBBBB;
+    font-size: 13px;
+    margin: 30px;
+    color: #000000;
+}
