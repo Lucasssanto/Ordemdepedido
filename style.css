@@ -27,9 +27,13 @@ h1 {
 }
 
 .resumo {
-    text-align: center;
-    margin: 20px;
     font-weight: bolder;
+    padding: 20px ;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 20px 0;
 }
 
 .plano {
@@ -48,6 +52,7 @@ h1 {
     width: 9%;
     font-weight: lighter;
     justify-content: center;
+    padding: 15px 0;
 }
 
 .bnt1 {
@@ -65,7 +70,7 @@ h1 {
     border-bottom: 1px solid #eaeaea;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 30%;
     padding: 20px 0;
 }
 
@@ -84,12 +89,9 @@ h1 {
     border-bottom: 1px solid #eaeaea;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 30%;
     padding: 20px 0;
 }
-}
-
-
 
 footer {
     text-align: center;
@@ -103,6 +105,7 @@ footer {
     font-size: 15px;
     text-align: center;
     margin: 0 auto;
+    padding: 20px;
   }
 
 .copyright {
@@ -111,4 +114,5 @@ footer {
     font-size: 13px;
     margin: 30px;
     color: #000000;
+    font-weight: bolder;
 }
