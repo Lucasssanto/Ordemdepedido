@@ -163,26 +163,26 @@ body {
 
 .imagem {
   width: 100%;
-	border-radius: 10px;
+	border-radius: 15px;
 }
 
 .titulo:first-child {
 	font-weight: bold;
 }
 
-.titulo-pedido {
+.titulo{
   color: var(--clr-darkblue);
   text-align: center;
-  padding: 10px;
+  padding: 1px;
   margin-left: 0;
   margin-right: 0;
   }
 
 .resumo {
-  max-width: 25ch;
+  max-width: 25em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .plano {
@@ -197,6 +197,8 @@ body {
 }
 
 span {
+  font-weight: var(--fw-bold);
+  color: var(--clr-brightblue);
   margin: auto;
   display: block;
   font-weight: var(--fw-black);
@@ -204,11 +206,14 @@ span {
 }
 
 .principal-plano {
-  margin: 30px 0 0;
-  font-weight: var(--fw-bold);
-  color: var(--clr-brightblue);
-  font-size: 20px;
-  justify-content: center;
+  color: var(--clr-darkblue);
+  padding: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 .principal-plano :hover {
     text-decoration: none;
@@ -216,7 +221,12 @@ span {
 }
 
 .mudar {
-    margin-bottom: 1px;
+  max-width: 25up;
+  font-size: 20px;
+  width: 30%;
+  margin-bottom: 1px;
+  color: blue;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -294,4 +304,21 @@ h2 {
   font-weight: var(--fw-black);
   margin-bottom: 0.75em;
   text-align: center;
+}
+
+.dashboard {
+  color: blue;
+  text-decoration: none;
+}
+
+.titulo-aprovado {
+  color: var(--clr-darkblue);
+  text-align: center;
+  padding: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 26em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
