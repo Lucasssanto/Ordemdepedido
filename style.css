@@ -56,6 +56,8 @@ html {
 }
  img,
  video {
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
   max-width: 100%;
 }
@@ -80,7 +82,7 @@ th {
   --clr-brightblue-hover: rgba(56, 41, 224, 0.7);
   --clr-brightblue-shadow: rgba(56, 41, 224, 0.25);
   --clr-verypaleblue: #f5f7ff;
-  --clr-desaturatedblue: #7280a7;
+  --clr-desaturatedblue: #485372;
   --clr-darkblue: #1f2f56;
   --clr-white: white;
    /* Fonts Families */
@@ -202,10 +204,11 @@ span {
 }
 
 .principal-plano {
-  margin-left: auto;
+  margin: 30px 0 0;
   font-weight: var(--fw-bold);
   color: var(--clr-brightblue);
   font-size: 20px;
+  justify-content: center;
 }
 .principal-plano :hover {
     text-decoration: none;
@@ -247,6 +250,11 @@ span {
   padding: 20px 0;
 }
 
+.pagamento {
+  color: white;
+  text-decoration: none;
+}
+
 .btn2 {
   font-weight: bold;
   font-size: 16px;
@@ -266,13 +274,6 @@ span {
   padding: 20px 0;
 }
 
-h2 {
-  color:  black;
-}
-.final-a {
-  color: black;
-}
-
 .final-titulo {
   font-size: var(--fs-title);
   font-weight: var(--fw-black);
@@ -284,5 +285,13 @@ h2 {
   justify-content: center;;
   margin-left: auto;
   margin-right: auto;
-  color: black;
+}
+
+/*css pagamento*/ 
+
+h2 {
+  font-size: var(--fs-title);
+  font-weight: var(--fw-black);
+  margin-bottom: 0.75em;
+  text-align: center;
 }
