@@ -250,6 +250,10 @@ body {
   color: var(--clr-darkblue);
 }
 
+.mudar {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .plano a {
   margin-left: auto;
   font-weight: var(--fw-bold);
