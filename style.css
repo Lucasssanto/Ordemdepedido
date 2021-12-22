@@ -215,15 +215,15 @@ body {
 }
 
 .titulo {
+  font-family: 'Montserrat', sans-serif;
   color: var(--clr-darkblue);
   font-weight: var(--fw-black);
 }
 
 .legenda {
-  padding: 10PX;
-  text-align: center; 
-  font-weight: bold;
-  border-radius: 10px; 
+  justify-content: center;
+  padding: 1.9rem 2rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .plano {
@@ -244,6 +244,7 @@ body {
 }
 
 .plano span {
+  font-family: 'Montserrat', sans-serif;
   display: block;
   font-weight: var(--fw-black);
   color: var(--clr-darkblue);
@@ -273,12 +274,12 @@ body {
     padding: 1.25rem;
   }
   .legenda {
-    max-width: 30ch;
+   justify-content: center;
   }
 }
 
 .atributo {
   text-align: center;
-  font-weight: bolder;
-  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
