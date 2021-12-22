@@ -220,10 +220,20 @@ body {
   font-weight: var(--fw-black);
 }
 
+@media only screen and (min-width: 1440px)
 .legenda {
-  justify-content: center;
-  padding: 1.9rem 2rem;
-  font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+}
+.legenda {
+    /* justify-content: center; */
+    padding: 1.9
+rem
+ 2
+rem
+;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .plano {
@@ -280,7 +290,6 @@ body {
   }
   .legenda {
    justify-content: center;
-   font-size: center;
   }
 }
 
