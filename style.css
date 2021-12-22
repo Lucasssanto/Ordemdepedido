@@ -109,11 +109,12 @@ th {
   font-size: 16px;
 }
 
-body {
-  font-family: var(--ff-primary);
-  font-size: var(--fs-body);
-  line-height: 1.6;
-}
+body{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  }
 
 h1 {
   padding: 10PX;
@@ -138,6 +139,8 @@ body {
   background-size: 100%;
   background-color: var(--clr-paleblue);
 }
+
+
 @media only screen and (min-width: 1440px) {
   body {
     background-image: url(../images/pattern-background-desktop.svg);
@@ -277,4 +280,5 @@ body {
 .atributo {
   text-align: center;
   font-weight: bolder;
+  font-size: 16px;
 }
