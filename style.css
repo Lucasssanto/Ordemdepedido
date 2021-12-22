@@ -220,11 +220,17 @@ body {
   font-weight: var(--fw-black);
 }
 
+.legenda {
+  justify-content: center;
+  padding: 1.9rem 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media only screen and (min-width: 1440px)
-  .legenda {
+.legenda {
     justify-content: center;
-  }
-  .legenda {
+}
+.legenda {
     /* justify-content: center; */
     padding: 1.9
 rem
@@ -234,7 +240,7 @@ rem
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 18px;
- }
+}
 
 .plano {
   display: -webkit-box;
