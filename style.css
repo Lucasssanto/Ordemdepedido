@@ -116,10 +116,10 @@ body {
 }
 
 h1 {
-  font-size: medium;
-  margin-bottom: 0.75em;
-  color: black;
+  padding: 10PX;
+  text-align: center; 
   font-weight: bold;
+  border-radius: 10px; 
 }
 
 body {
@@ -217,10 +217,10 @@ body {
 }
 
 .legenda {
-  font-weight: bolder;
-  padding: 10px ;
-  margin-left: auto;
-  margin-right: auto;  
+  padding: 10PX;
+  text-align: center; 
+  font-weight: bold;
+  border-radius: 10px; 
 }
 
 .plano {
@@ -276,9 +276,5 @@ body {
 
 .atributo {
   text-align: center;
-  bottom: 0;
-  width: 100%;
-  font-size: 0.875rem;
-  text-align: center;
-  margin: 0 auto; 
+  font-weight: bolder;
 }
