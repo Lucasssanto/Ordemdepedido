@@ -183,10 +183,6 @@ body {
   width: 100%;
 }
 
-.mudar {
-  outline: transparent;
-}
-
 .sumario {
   display: -webkit-box;
   display: -ms-flexbox;
